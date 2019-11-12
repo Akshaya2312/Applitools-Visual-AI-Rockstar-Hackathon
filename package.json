@@ -1,0 +1,19 @@
+{
+  "name": "rockstar-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:test:v1": "cross-env CYPRESS_APP_URL=hackathon.html cypress run",
+    "cypress:test:v2": "cross-env CYPRESS_APP_URL=hackathonV2.html cypress run",
+    "cypress:open:v1": "cross-env CYPRESS_APP_URL=hackathon.html cypress open",
+    "cypress:open:v2": "cross-env CYPRESS_APP_URL=hackathonV2.html cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "6.0.3",
+    "cypress": "3.6.1",
+    "@applitools/eyes-cypress": "^3.8.18"
+  }
+}
